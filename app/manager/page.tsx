@@ -57,7 +57,7 @@ export default function Manager() {
                     {orders.map((order, index) => (
                         <div key={index} className="flex flex-col gap-2 p-4 border-2">
                             <div className="flex justify-between flex-wrap">
-                                <span>Item Name: {order.itemName}</span>
+                                <span>Item: {order.itemName}</span>
                                 <span>Count: {order.count}</span>
                                 <span>Rate: ₹{order.rate}</span>
                                 <span>Total Amount: ₹{order.totalAmt}</span>
