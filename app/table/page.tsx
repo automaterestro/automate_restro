@@ -1,3 +1,4 @@
+import FoodMenu from "../components/foodMenu";
 export default function Table() {
     return (
         <>
@@ -11,6 +12,9 @@ export default function Table() {
                     <div className="col-span-1 flex justify-center items-center">
                         <p className="text-lg text-center">Scan QR <br /> & <br /> Order Your Food!</p>
                     </div>
+                </div>
+                <div className="py-8"> 
+                <FoodMenu/>
                 </div>
             </div>
         </>
