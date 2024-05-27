@@ -17,7 +17,7 @@ export const foodItems: FoodItem[] = [
         price: 250,
         category: "Pizza",
         description: "Classic margherita pizza with fresh mozzarella and basil.",
-        imageUrl: "https://example.com/images/margherita.jpg",
+        imageUrl: "/dhokla.avif",
         sizes: ["Small", "Medium", "Large", "XL"],
     },
     {
@@ -26,7 +26,7 @@ export const foodItems: FoodItem[] = [
         price: 300,
         category: "Pasta",
         description: "Creamy pasta carbonara with pancetta and parmesan.",
-        imageUrl: "https://example.com/images/carbonara.jpg",
+        imageUrl: "/dhokla.avif",
         sizes: ["Small", "Medium", "Large", "XL"],
     },
     {
@@ -34,7 +34,7 @@ export const foodItems: FoodItem[] = [
         name: "Caesar Salad",
         price: 200,
         category: "Salad",
-        imageUrl: "https://example.com/images/caesar.jpg",
+        imageUrl: "/dhokla.avif",
         sizes: ["Small", "Medium", "Large", "XL"],
     },
     {
@@ -42,7 +42,7 @@ export const foodItems: FoodItem[] = [
         name: "Chicken Burger",
         price: 180,
         category: "Burger",
-        imageUrl: "https://example.com/images/chicken_burger.jpg",
+        imageUrl: "/dhokla.avif",
         sizes: ["Small", "Medium", "Large", "XL"],
     },
     {
@@ -51,7 +51,7 @@ export const foodItems: FoodItem[] = [
         price: 150,
         category: "Dessert",
         description: "Rich chocolate cake with a molten chocolate center.",
-        imageUrl: "https://example.com/images/chocolate_cake.jpg",
+        imageUrl: "/dhokla.avif",
         sizes: ["Small", "Medium", "Large", "XL"],
     },
     {
@@ -59,7 +59,7 @@ export const foodItems: FoodItem[] = [
         name: "Lemonade",
         price: 80,
         category: "Beverage",
-        imageUrl: "https://example.com/images/lemonade.jpg",
+        imageUrl: "/dhokla.avif",
         sizes: ["Small", "Medium", "Large", "XL"],
     },
 ];

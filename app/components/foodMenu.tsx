@@ -11,25 +11,32 @@ const FoodMenu: React.FC = () => {
                 {foodItems.map((item: FoodItem) => (
                     <li key={item.id} className='border-b pb-2 w-full'>
                         <div className="flex gap-6 items-center justify-between">
-                            <span className="font-semibold text-red-500">{item.name}</span>
-                            <span>₹{item.price}</span>
-                            <div className='flex gap-2'>
-                                <label htmlFor={`sizes-${item.id}`} className="">Sizes:</label>
-                                <select id={`sizes-${item.id}`} className="border">
-                                    {item.sizes.map((size, index) => (
-                                        <option key={index} value={size}>{size}</option>
-                                    ))}
-                                </select>
+                            <div className='flex gap-4'>
+                                <img src={item.imageUrl} alt={item.name} className="w-12 h-12 object-cover rounded-full" />
+                                <div>
+                                    <span className="font-semibold text-red-500">{item.name}</span><br />
+                                    <span>₹{item.price}</span>
+                                </div>
                             </div>
-                            <div className="flex gap-2">
-                                <label htmlFor={`count-${item.id}`}>Count:</label>
-                                <input
-                                    id={`count-${item.id}`}
-                                    type="number"
-                                    defaultValue={1}
-                                    min={1}
-                                    className="border w-20"
-                                />
+                            <div className='flex gap-4'>
+                                <div className='flex gap-2'>
+                                    <label htmlFor={`sizes-${item.id}`} className="">Sizes:</label>
+                                    <select id={`sizes-${item.id}`} className="border">
+                                        {item.sizes.map((size, index) => (
+                                            <option key={index} value={size}>{size}</option>
+                                        ))}
+                                    </select>
+                                </div>
+                                <div className="flex gap-2">
+                                    <label htmlFor={`count-${item.id}`}>Count:</label>
+                                    <input
+                                        id={`count-${item.id}`}
+                                        type="number"
+                                        defaultValue={0}
+                                        min={1}
+                                        className="border w-20"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </li>
