@@ -55,7 +55,7 @@ export default function Kitchen() {
                                 <th className="py-2 px-4 border-b">Size</th>
                                 <th className="py-2 px-4 border-b">Comment</th>
                                 <th className="py-2 px-4 border-b text-center">Count</th>
-                                <th className="py-2 px-4 border-b text-center">Completed</th>
+                                <th className="py-2 px-4 border-b text-center">Date/Time</th>
                             </tr>
                         </thead>
                         <tbody>

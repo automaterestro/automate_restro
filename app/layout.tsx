@@ -14,8 +14,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex flex-col gap-4 py-4">
-        <Header/>
+      <body className="flex flex-col gap-4 pb-4">
+        <header className="sticky top-0 py-4"><Header/></header>
         {children}</body>
     </html>
   );
