@@ -44,7 +44,7 @@ const FoodMenu: React.FC = () => {
             </ul>
             <div className='flex justify-between mt-4'>
                 <a className="py-2 px-3">Total Amount : </a>
-                <a className="py-2 px-3 border-2 rounded hover:bg-indigo-600 hover:text-white">Pay using UPI/Card</a>
+                <a className="py-2 px-3 border-2 rounded hover:bg-indigo-600 hover:text-white cursor-pointer active:bg-red-500 select-none" >Pay using UPI/Card</a>
             </div>
         </div>
     );
