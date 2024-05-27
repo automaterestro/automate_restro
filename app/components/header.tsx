@@ -7,6 +7,7 @@ export default function Header() {
         <li className="hover:text-red-500"><Link href='/kitchen'>Kitchen</Link></li>
         <li className="hover:text-red-500"><Link href='/table'>Table</Link></li>
         <li className="hover:text-red-500"><Link href='/waiter'>Waiter</Link></li>
+        <li className="hover:text-red-500"><Link href='/'>Login/Signup</Link></li>
       </ul>
     </>
 }
