@@ -1,12 +1,10 @@
-// app/components/foodMenu.tsx
-
 import React from 'react';
 import foodItems, { FoodItem } from '../data/foodItems';
 
 const FoodMenu: React.FC = () => {
     return (
         <div className="flex flex-col gap-4 justify-center items-center px-4">
-            <h1 className="text-lg bg-indigo-600 text-white w-full text-center py-2 font-semibold mb-4">Restro Menu</h1>
+            <h1 className="text-lg text-indigo-600 mb-4">Restro Menu</h1>
             <ul className="w-full gap-2 flex flex-col">
                 {foodItems.map((item: FoodItem) => (
                     <li key={item.id} className='border-b pb-2 w-full'>
